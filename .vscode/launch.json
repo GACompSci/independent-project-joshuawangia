@@ -1,0 +1,38 @@
+{
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "GAkinator_a2628a53",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls,javafx.fxml"
+
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "MainApp",
+            "projectName": "gakinator-joshuawangia_1a5ec41",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "MainApp",
+            "projectName": "javafxTemplate_9b3165ce",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "MainApp",
+            "projectName": "gakinator_ac3f1a43",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
